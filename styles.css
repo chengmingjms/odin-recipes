@@ -25,15 +25,20 @@ p {
     padding: 5px;
 }
 
-li {
-    background-color: #FFEEDD;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid black;
-    list-style-type: none;
-    width: 300px;
-}
-
 a:visited {
     color: black;
+}
+
+.recipe_container {
+    background-color: lightsalmon;
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+}
+
+.recipe_card {
+    background-color: whitesmoke;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
 }
