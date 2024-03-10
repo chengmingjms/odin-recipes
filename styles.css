@@ -33,12 +33,54 @@ a:visited {
     background-color: lightsalmon;
     border: 2px solid black;
     display: flex;
+    border-radius: 15px;
     gap: 10px;
+    padding: 10px;
 }
 
 .recipe_card {
-    background-color: whitesmoke;
-    width: 100px;
+    background-color: #997755;
+    max-width: 120px;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #444444;
+    flex: 1 1 auto;
+    border-radius: 10px;
+}
+
+.imgdiv {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    background-color: lightgray;
+    border: 1px solid #444444;
+    border-radius: 5px;
+}
+
+.linkdiv {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border: 1px solid #444444;
+    border-radius: 5px;
+}
+
+.smallimg {
+    width: auto;
+    height: auto;
+    max-height: 80%;
+    max-width: 80%;
+    background: grey;
+    padding: 0px;
+    margin: auto;
+}
+
+.linkdiv a {
+    width: 100%;
     text-align: center;
-    margin: 10px;
 }
